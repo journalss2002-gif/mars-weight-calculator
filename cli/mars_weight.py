@@ -3,7 +3,8 @@ def calculate_weight(earth_weight, factor):
 
 def main():
     print("Mars Weight Calculator (CLI)")
-    earth = input("Enter your weight on Earth (kg): ")
+    earth = input("Enter your weight on Earth in kilograms (e.g., 72.5): ")
+
     try:
         earth_weight = float(earth)
         if earth_weight <= 0:
