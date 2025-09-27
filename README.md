@@ -1,3 +1,4 @@
+**Note:** This tool is for educational purposes to demonstrate gravity differences; it does not model orbital mechanics or real mission constraints.
 
 # Mars Weight Calculator (Python CLI)
 
