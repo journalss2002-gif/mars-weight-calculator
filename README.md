@@ -25,3 +25,7 @@
 ## Contributors
 - Renad Ibrahim  
 - Talal AlHamer
+  
+## Future Improvements - 
+Add more planets (Jupiter, Venus, Saturn) 
+- Create a GUI version
