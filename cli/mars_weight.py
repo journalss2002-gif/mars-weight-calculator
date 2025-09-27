@@ -1,7 +1,15 @@
+import sys
+
 def calculate_weight(earth_weight, factor):
     return earth_weight * factor
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print("Usage: python mars_weight.py")
+        print("Then enter your Earth weight in kg when prompted.")
+        print("Example: 72.5")
+        return
+
     print("Mars Weight Calculator (CLI)")
     earth = input("Enter your weight on Earth in kilograms (e.g., 72.5): ")
 
@@ -24,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
